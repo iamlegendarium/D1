@@ -1,6 +1,6 @@
 function signupBtn(event) {
     event.preventDefault();
-  let url = "http://localhost:4000/register";
+  let url = "https://d1-vz08.onrender.com/register";
 
   const firstName = document.getElementById("fName").value;
   const lastName = document.getElementById("lName").value;
